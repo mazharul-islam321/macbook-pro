@@ -19,68 +19,76 @@
     <main>
         <section class="container">
             <div class="row pt-5">
-                <div class="col-lg-6">
+                <section class="col-lg-6">
                     <img class="img-fluid" src="image/mac.png" alt="MacBook Pro">
-                </div>
-                <div class="col-lg-6 button-color">
-                    <h1>Customize your Blue 24-inch iMac with Apple M1 chip</h1>
-                    <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and
-                        16-core Neural Engine 8Gb unifued memory 256GB SSD storage Two Thunderbolt / USB 4 ports Magic
-                        Mouse Magic Keyboard-US English.</p>
-                    <div class="my-5">
-                        <h4>Memory</h4>
-                        <button>8GB unified memory</button>
-                        <button>16GB unified memory</button>
-                    </div>
-                    <div class="mb-5">
-                        <h4>Memory</h4>
-                        <button>256GB SSD storage</button>
-                        <button>512GB SSD storage</button>
-                        <button>1TB SSD storage</button>
-                    </div>
-                    <div class="mb-5">
-                        <h4>Choose your delivery Option</h4>
-                        <button>Friday, Aug 25 FREE Prime Delivery</button>
-                        <button>Friday, Aug 21 Delivery charge $20</button>
-                    </div>
-                    <div>
-                        <table class="table w-50">
-                            <tr>
-                                <td>Best Price</td>
-                                <td>$<span>1299</span></td>
-                            </tr>
-                            <tr>
-                                <td>Extra Memory Cost</td>
-                                <td>$<span>0</span></td>
-                            </tr>
-                            <tr>
-                                <td>Extra Storage Cost</td>
-                                <td>$<span>0</span></td>
-                            </tr>
-                            <tr class="border-bold">
-                                <td>Delivery Charge</td>
-                                <td>$<span>0</span></td>
-                            </tr>
-                            <tr>
-                                <td>Total Price</td>
-                                <td>$<span>1299</span></td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="mt-4">
-                        <h4>Add Promo Code</h4>
-                        <input class="input-style" type="text" name="text" id="">
-                        <button class="bg-danger button-width">Apply</button>
-                    </div>
-                </div>
+                </section>
+                <section class="col-lg-6">
+                    <header>
+                        <h1>Customize your Blue 24-inch iMac with Apple M1 chip</h1>
+                        <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU,
+                            and
+                            16-core Neural Engine 8Gb unifued memory 256GB SSD storage Two Thunderbolt / USB 4 ports
+                            Magic
+                            Mouse Magic Keyboard-US English.</p>
+                    </header>
+                    <main>
+                        <div class="button-color">
+                            <div class="my-5">
+                                <h4>Memory</h4>
+                                <button id="eightGbMemo">8GB unified memory</button>
+                                <button id="sixteenGbMemo">16GB unified memory</button>
+                            </div>
+                            <div class="mb-5">
+                                <h4>Memory</h4>
+                                <button id="firstSsd">256GB SSD storage</button>
+                                <button id="secondSsd">512GB SSD storage</button>
+                                <button id="thirdSsd">1TB SSD storage</button>
+                            </div>
+                            <div class="mb-5">
+                                <h4>Choose your delivery Option</h4>
+                                <button id="twentyFive">Friday, Aug 25 FREE Prime Delivery</button>
+                                <button id="twentyOne">Friday, Aug 21 Delivery charge $20</button>
+                            </div>
+                        </div>
+                        <div>
+                            <table class="table w-50">
+                                <tr>
+                                    <td>Best Price</td>
+                                    <td>$<span id="best-Price">1299</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Extra Memory Cost</td>
+                                    <td>$<span id="extra-Memory-Cost">0</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Extra Storage Cost</td>
+                                    <td>$<span id="extra-Storage-Cost">0</span></td>
+                                </tr>
+                                <tr class="border-bold">
+                                    <td>Delivery Charge</td>
+                                    <td>$<span id="delivery-Charge">0</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Total Price</td>
+                                    <td>$<span id="total-Price">1299</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="mt-4">
+                            <h4>Add Promo Code</h4>
+                            <input id="input-field" class="input-style" type="text" name="text" id="">
+                            <button id="apply" class="bg-danger button-width">Apply</button>
+                        </div>
+                    </main>
+                </section>
             </div>
         </section>
         <hr>
-        <section>
+        <footer>
             <div class="text-center mb-4">
-                <h1>Total: $<span>1299</span></h1>
+                <h1>Total: $<span id="final-total">1299</span></h1>
             </div>
-        </section>
+        </footer>
     </main>
 
 
